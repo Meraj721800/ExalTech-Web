@@ -10,15 +10,19 @@ const NaveBar = () => {
       {/* <h1>Thsi is NaveBare Components</h1> */}
       <nav className="main-nav">
         <div className="logo">
-          <h2>
-            <span>E</span>xal
-            <span>T</span>echs
-          </h2>
+          <a href="">
+            {" "}
+            <h2>
+              <span>E</span>xal
+              <span>T</span>echs
+            </h2>
+          </a>
         </div>
         <div
           className={
             showMediaIcons ? "menu-link mobile-menu-link" : "menu-link"
-          }>
+          }
+        >
           <ul>
             <li>
               <a href="">Home</a>
